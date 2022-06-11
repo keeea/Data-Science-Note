@@ -15,3 +15,25 @@ SE **ONLY** represent variability in **point estimates** from different samples 
 
 ### SE over Sample Size
 As sample size n increase, sampling variability / SE is expected to decrease.
+
+### Sample Distribution VS Sampling Distribution 
+Every observatioon in the **sample distribution** is a **randomly sampled unit**, while every observation in **sampling distribution** is a **sample statistic**.
+
+### Central Limit Theorem (CLT): 
+The **distribution of sample statistics** is **nearly normal**, **centered** at the population mean, and with a **standard deviation** equal to the population standard deviation divided by square root of the sample size.
+<img width="349" alt="image" src="https://user-images.githubusercontent.com/90301308/173204255-aa1bbb97-a178-4ef4-b9e4-b9f5d716b9ff.png">
+
+### Conditions for the CLT
+1. **Independence**: Sampled observations must be independent.
+- random sample/assignment
+- if sampling without replacement, n < 10% of population
+2. **Sample size/skew**: 
+Either the population distribution is normal, or if the population distribution is skewed, the sample size is large (rule of thumb: n > 30).
+
+### Application of CLT
+1. In most case, CLT will not be directly applied to the individual observations, but mean or sum/size. 
+2. And if the population distribution isn't normal, you could not apply Z-score to calculate probability.
+
+## Confidence 
+2. And if the population distribution isn't normal, you could not apply Z-score to calculate probability.interval 
+2. And if the population distribution isn't normal, you could not apply Z-score to calculate probability.
